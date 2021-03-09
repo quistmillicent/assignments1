@@ -1,0 +1,53 @@
+*{
+    margin: 02;
+}
+.main{
+    height: 100vh;
+}
+.navbar{
+    background-color: cyan;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link{
+    display: flex;
+}
+.link li{
+    list-style: none;
+    margin-right: 15px;
+}
+.header{
+    height: 100px;
+    background-color: darkgray;
+}
+.content{
+    display: flex;
+    height: 250px;
+    background-color: darkkhaki;
+   
+}
+/* .news{ */
+    /* flex: 0.9;  */
+/* } */
+
+.reactions {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(111, 216, 120);
+    flex: 2;
+    justify-content: space-between;
+    margin-top: 3px;
+}
+.imagesdiv{
+    display: ruby-base;
+    flex: 3px;
+    align-items: flex-end;
+    background-color: ghostwhite;
+    justify-content: right;
+    margin: 4px;
+
+.footer{
+    background-color: dodgerblue;
+} 
